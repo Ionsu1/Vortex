@@ -1,0 +1,355 @@
+.quickview-content .product-container {
+  height: 100%;
+}
+.quickview-content .product-container .product-container-main {
+  gap: 0;
+  height: 100%;
+}
+.quickview-content
+  .product-container
+  .product-container-main
+  .product-title
+  h1 {
+  font-size: 1.5rem !important;
+}
+.quickview-content
+  .product-container
+  .product-container-main
+  .product-countdown
+  .countdown-title {
+  font-size: 1.25rem;
+}
+.quickview-content .quick-add-hidden {
+  display: none !important;
+}
+.quickview-content .info-placeholder > * {
+  height: 1rem;
+}
+.quickview-content .info-placeholder > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.quickview-content .info-placeholder .vendor-placeholder {
+  max-width: 7.5rem;
+}
+.quickview-content .info-placeholder .title-placeholder {
+  height: 2rem;
+}
+.quickview-content .info-placeholder .price-placeholder {
+  max-width: 8.75rem;
+  height: 1.5rem;
+}
+.quickview-content .info-placeholder .shipping-placeholder {
+  max-width: 21.25rem;
+}
+.quickview-content .info-placeholder .variants-wrapper-placeholder {
+  height: auto;
+  padding: 1rem 0;
+}
+.quickview-content
+  .info-placeholder
+  .variants-wrapper-placeholder
+  .variant-selector-placeholder {
+  max-width: 21.25rem;
+  height: 7.5rem;
+}
+.quickview-content
+  .info-placeholder
+  .variants-wrapper-placeholder
+  .variant-selector-placeholder:first-child {
+  margin-bottom: 1rem;
+}
+.quickview-content .info-placeholder .quantity-selector-placeholder {
+  max-width: 14.625rem;
+  height: 3.5rem;
+}
+.quickview-content .info-placeholder .button-placeholder {
+  height: 4.5rem;
+}
+.quickview-content .quickview-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  background: #f8f9fa;
+}
+.quickview-content .quickview-error .error-message {
+  margin-bottom: 1.5rem;
+  color: #dc2626;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.quickview-content .quickview-error .button--primary {
+  min-width: 120px;
+  padding: 0.75rem 1.5rem;
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.quickview-content .quickview-error .button--primary:hover {
+  background-color: #6d28d9;
+}
+@media screen and (max-width: 749px) {
+  .quickview-content .product-container {
+    overflow: auto;
+  }
+  .quickview-content .product-container .product-media-gallery {
+    display: none;
+  }
+  .quickview-content .product-container .product-info .product-info-inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .quickview-content
+    .product-container
+    .product-info
+    .product-info-inner
+    .product-info-block:not(
+      .product-title,
+      .product-price-tax,
+      .product-buy-button,
+      .variant-selects
+    ) {
+    display: none !important;
+  }
+  .quickview-drawer > .modal-inner {
+    height: auto !important;
+    min-height: 20rem;
+    max-height: 90vh;
+  }
+}
+@media screen and (min-width: 750px) {
+  .quickview-content .product-media-gallery {
+    width: 15rem !important;
+    height: 100%;
+  }
+  .quickview-content .product-media-gallery .media-gallery,
+  .quickview-content .product-media-gallery .media-gallery .slider,
+  .quickview-content
+    .product-media-gallery
+    .media-gallery
+    .slider
+    .slider-container {
+    height: 100%;
+  }
+  .quickview-content
+    .product-media-gallery
+    .media-gallery
+    .slider
+    .slider-container
+    .product-media-list {
+    gap: 1rem;
+  }
+  .quickview-content
+    .product-media-gallery
+    .media-gallery
+    .slider
+    .slider-container
+    .slider-counter {
+    display: none;
+  }
+  .quickview-content
+    .product-media-gallery
+    .media-gallery.media-gallery-placeholder {
+    height: auto;
+  }
+  .quickview-content .product-info {
+    padding-left: 2rem;
+    padding-right: 0;
+    height: 100%;
+    overflow-y: auto;
+  }
+  .quickview-content
+    .product-info
+    .product-info-inner
+    .product-gift
+    .gift-list-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .quickview-content .loading-placeholder {
+    display: flex;
+    gap: 2rem;
+    align-items: stretch;
+  }
+  .quickview-content .loading-placeholder .media-placeholder > * {
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 1rem;
+  }
+  .quickview-content .loading-placeholder .info-placeholder {
+    flex: 1 1 auto;
+  }
+}
+@media screen and (max-width: 749px) {
+  .quickview-drawer {
+    align-items: flex-end !important;
+  }
+}
+.quickview-content .product-container {
+  height: 100%;
+}
+.quickview-content .product-container .product-container-main {
+  gap: 0;
+  height: 100%;
+}
+.quickview-content
+  .product-container
+  .product-container-main
+  .product-title
+  h1 {
+  font-size: 1.5rem !important;
+}
+.quickview-content
+  .product-container
+  .product-container-main
+  .product-countdown
+  .countdown-title {
+  font-size: 1.25rem;
+}
+.quickview-content .quick-add-hidden {
+  display: none !important;
+}
+.quickview-content .info-placeholder > * {
+  height: 1rem;
+}
+.quickview-content .info-placeholder > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.quickview-content .info-placeholder .vendor-placeholder {
+  max-width: 7.5rem;
+}
+.quickview-content .info-placeholder .title-placeholder {
+  height: 2rem;
+}
+.quickview-content .info-placeholder .price-placeholder {
+  max-width: 8.75rem;
+  height: 1.5rem;
+}
+.quickview-content .info-placeholder .shipping-placeholder {
+  max-width: 21.25rem;
+}
+.quickview-content .info-placeholder .variants-wrapper-placeholder {
+  height: auto;
+  padding: 1rem 0;
+}
+.quickview-content
+  .info-placeholder
+  .variants-wrapper-placeholder
+  .variant-selector-placeholder {
+  max-width: 21.25rem;
+  height: 7.5rem;
+}
+.quickview-content
+  .info-placeholder
+  .variants-wrapper-placeholder
+  .variant-selector-placeholder:first-child {
+  margin-bottom: 1rem;
+}
+.quickview-content .info-placeholder .quantity-selector-placeholder {
+  max-width: 14.625rem;
+  height: 3.5rem;
+}
+.quickview-content .info-placeholder .button-placeholder {
+  height: 4.5rem;
+}
+@media screen and (max-width: 749px) {
+  .quickview-content .product-container {
+    overflow: auto;
+  }
+  .quickview-content .product-container .product-media-gallery {
+    display: none;
+  }
+  .quickview-content .product-container .product-info .product-info-inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .quickview-content
+    .product-container
+    .product-info
+    .product-info-inner
+    .product-info-block:not(
+      .product-title,
+      .product-price-tax,
+      .product-buy-button,
+      .variant-selects
+    ) {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 750px) {
+  .quickview-content .product-media-gallery {
+    width: 15rem !important;
+    height: 100%;
+  }
+  .quickview-content .product-media-gallery .media-gallery,
+  .quickview-content .product-media-gallery .media-gallery .slider,
+  .quickview-content
+    .product-media-gallery
+    .media-gallery
+    .slider
+    .slider-container {
+    height: 100%;
+  }
+  .quickview-content
+    .product-media-gallery
+    .media-gallery
+    .slider
+    .slider-container
+    .product-media-list {
+    gap: 1rem;
+  }
+  .quickview-content
+    .product-media-gallery
+    .media-gallery
+    .slider
+    .slider-container
+    .slider-counter {
+    display: none;
+  }
+  .quickview-content
+    .product-media-gallery
+    .media-gallery.media-gallery-placeholder {
+    height: auto;
+  }
+  .quickview-content .product-info {
+    padding-left: 2rem;
+    padding-right: 0;
+    height: 100%;
+    overflow-y: auto;
+  }
+  .quickview-content
+    .product-info
+    .product-info-inner
+    .product-gift
+    .gift-list-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .quickview-content .loading-placeholder {
+    display: flex;
+    gap: 2rem;
+    align-items: stretch;
+  }
+  .quickview-content .loading-placeholder .media-placeholder > * {
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 1rem;
+  }
+  .quickview-content .loading-placeholder .info-placeholder {
+    flex: 1 1 auto;
+  }
+}
+@media screen and (max-width: 749px) {
+  .quickview-drawer {
+    align-items: flex-end !important;
+  }
+  .quickview-drawer > .modal-inner {
+    height: 30rem !important;
+  }
+}
+/*# sourceMappingURL=/cdn/shop/t/2/assets/component-quick-add.css.map?v=151180826015424995811735614164 */
